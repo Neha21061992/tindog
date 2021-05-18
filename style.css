@@ -63,11 +63,12 @@ ul{
 .features{
 
   text-align: center;
-  padding: 7% 15% 10% 7%;
+  padding: 7% 7% 0% 0%;
 }
 
 .featureicon{
 
+  margin-bottom:-7%;
   font-size: 20px;
   color:#FF5733;
   transform: transition 1.5s;
@@ -108,4 +109,10 @@ h6{
 {
   background-color: #F79593;
 
+}
+
+
+
+.paddingfeatures{
+  padding-bottom: 10%;
 }
