@@ -1,0 +1,101 @@
+html{
+  scroll-behavior: smooth;
+}
+.navbg{
+  background-color: warning;
+  transform: transition 0.5s;
+}
+
+.navbg:hover{
+  transition: scale(1.01);
+}
+
+.h3text
+{
+  padding:10px 10px 10px 10px;
+  margin: 10px 0px 0px 0px;
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px #E4EAFA;
+
+}
+
+body
+{
+  font-family: 'Montserrat',sans-serif;
+}
+p
+{
+  font-family: 'Montserrat',sans-serif;
+  color: white;
+}
+
+ul{
+  font-family: 'Montserrat',,sans-serif;
+  color: white;
+
+
+}
+
+.zoom {
+  transition: transform 0.8s;
+}
+
+.zoom:hover {
+  transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+.nav-item{
+  padding : 0px 18px 18px 0px;
+    color: #DEE1DC;
+}
+
+.nav-brand{
+  color: "Montserrat"
+}
+.nav-link{
+
+  font-family: "Montserrat-light"
+  font-size: 13px;
+}
+
+.features{
+
+  text-align: center;
+  padding: 7% 15% 10% 7%;
+}
+
+.featureicon{
+
+  font-size: 20px;
+  color:#FF5733;
+  transform: transition 1.5s;
+  padding-bottom: 10%;
+}
+
+.featureicon:hover{
+  transition:scale(1.05);
+  color:#ED0500;
+}
+
+h5{
+  font-family: "Montserrat";
+}
+
+.ptestimonail{
+  text-align : center;
+}
+
+.contactus
+{
+  padding:0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 12px;
+  font-family: "Montserrat-light";
+  color: white;
+}
+
+h6{
+  color:white;
+}
