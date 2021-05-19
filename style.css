@@ -2,9 +2,27 @@ html{
   scroll-behavior: smooth;
 }
 
+.shadow-left{
+  height: 520%;
+  width: 70px;
+  z-index:1;
+  position :absolute;
+  background-color: #fff;
+  opacity: 30%;
+}
+.shadow-right{
+  height: 520%;
+  width: 70px;
+  z-index:1;
+  position :absolute;
+  right:0;
+  background-color: #fff;
+  opacity: 30%;
+}
 
 
-@media only screen and (max-width:1028px){
+@media (min-width:0px) and (max-width:1000px){
+
   p{
     font-size: 22px;
     text-align: justify;
@@ -59,7 +77,6 @@ html{
 
 body
 {
-  padding : 5px 5px 5px 5px;
   border:dotted;
   border-width:1.5px;
 
