@@ -2,6 +2,13 @@ html{
   scroll-behavior: smooth;
 }
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{
+  p{
+      width:100%;
+  }
+}
+
 @media only screen and (max-width:1028px){
   p{
     font-size: 22px;
