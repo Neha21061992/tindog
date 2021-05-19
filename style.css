@@ -2,7 +2,7 @@ html{
   scroll-behavior: smooth;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:1028px){
   p{
     font-size: 22px;
     text-align: justify;
