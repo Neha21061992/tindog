@@ -25,6 +25,7 @@ $(this).scrollTop(0);
 
 
   </script>
+
     <title>tindog</title>
   </head>
   <body class="bg-danger">
@@ -36,20 +37,20 @@ $(this).scrollTop(0);
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item zoom"><a class="nav-link" href="#aboutus">About Us</a></li>
-            <li class="nav-item zoom"><a class="nav-link"  href="#features">Features</a></li>
-            <li class="nav-item zoom"><a class="nav-link"  href="#Testimonials">Testimonials</a></li>
-            <li class="nav-item zoom"><a class="nav-link"  href="#pricing">Pricing</a></li>
-            <li class="nav-item zoom"><a class="nav-link"  href="#contactus">Contact Us</a></li>
+            <li class="nav-item ml-auto zoom"><button type="button" class="btn btn-group-vertical text-light bg-danger" name="button"> <a class="text-white" href="#features">About Us</a></button></li>
+            <li class="nav-item ml-auto zoom"><button type="button" class="btn btn-group-vertical text-light bg-danger" name="button"> <a class="text-white" href="#features">Features</a></button></li>
+            <li class="nav-item ml-auto zoom"><button type="button" class="btn btn-group-vertical text-light bg-danger" name="button"> <a class="text-white" href="#testimonial">Testimonial</i></a> </button></li>
+            <li class="nav-item ml-auto zoom"><button type="button" class="btn btn-group-vertical text-light bg-danger" name="button"> <a class="text-white" href="#pricing">Pricing</a></button></li>
+            <li class="nav-item ml-auto zoom"><button type="button" class="btn btn-group-vertical text-light bg-danger" name="button"> <a class="text-white" href="#contactus">Contact Us</a> </button></li>
           </ul>
           </div> <!--closing collapse div for Navbar Menu-->
 
         </nav> <!--closing NAvbarcode -->
       <div class="row" style="padding: 2% 7% 7% 7%;">
-      <div class="col-lg-6 col-md-12 col-sm-12" style="padding-top:5%;">
-        <h3 class="zoom" style="font-family: 'Montserrat', sans-serif; font-size:50px; color:white; ">Meet new and Interesting dogs nearby....</h3>
+      <div class="col-lg-6 col-md-12 col-sm-12 " id="title" style="padding-top:5%;">
+        <h3 class="zoom" style="font-family: 'Montserrat', sans-serif; font-size:50px; color:white; " >Meet new and Interesting dogs nearby....</h3>
         <br><br>
         <button type="button" class="btn btn-sm btn-dark zoom" name="button"> <i class="fas fa-download"></i>Download</button>
         <button type="button" class="btn btn-sm btn-light btn-outline-light zoom" name="button"> <i class="fas fa-download"></i>Download</button>
@@ -165,7 +166,7 @@ $(this).scrollTop(0);
 <!--Pricing-->
 <div class="fluid-container bg-white" id="pricing" style="padding-top: 8%; padding-bottom:8%;">
   <div class="container pricingheader " style = "">
-  <h1 class="" style="padding-top:5%;padding-bottom:5%;"> A Plan for Dogs Need is on a Click... <i class="fas fa-glass-cheers"></i> </h1>
+  <h1 class="zoom" style="padding-top:5%;padding-bottom:5%;" id="feature-title"> A Plan for Dogs Need is on a Click... <i class="fas fa-glass-cheers"></i> </h1>
 
 <div class="row" >
     <div class=" col-lg-4 col-md-12 col-sm-12 zoom " style="border-radius:5%; padding:5px 5px 5px 5px;">
@@ -228,10 +229,20 @@ $(this).scrollTop(0);
 
 
 </div>
+
+<!--download Option-->
+
+<div class="container" style="text-align:center; padding: 2% 7% 7% 7%;">
+  <h3 class="zoom" style="font-family: 'Montserrat', sans-serif; font-size:50px; color:white; " id="title">Meet new and Interesting dogs nearby....</h3>
+  <br><br>
+  <button type="button" class="btn btn-sm btn-dark zoom" name="button"> <i class="fas fa-download"></i>Download</button>
+  <button type="button" class="btn btn-sm btn-light btn-outline-light zoom" name="button"> <i class="fas fa-download"></i>Download</button>
+</div>
+
 <!--Contact Us-->
 
-      <div class="container" id="contactus" style="margin-top:1%; text-align:center;">
-         <p ><h5 class="zoom" style="color:white ;">Contact Us</h5></p>
+      <div class="fluid-container bg-white text-secondary" id="contactus" style="margin-top:1%; text-align:center;">
+         <p ><h5 class="zoom " style="">Contact Us</h5></p>
           <p class="contactus zoom">49-C, Raksha Enclave, Near Nehru Chowk</p>
           <p class="contactus zoom">Mohan Garden, Uttam Nagar</p>
           <p class="contactus zoom">New Delhi - 110059</p>
@@ -245,7 +256,7 @@ $(this).scrollTop(0);
 
     </div>
     <div class="fluid-container bg-light " style="padding-top: 1%; padding-bottom:0.529%;">
-      <h4 class ="text-center text-secondary"> © CopyRights Reserved</h4>
+      <h6 class ="text-center text-secondary"> © CopyRights Reserved</h6>
     </div>
   </div> <!--Closed Contact Us Side-->
   </body>
