@@ -23,6 +23,24 @@ html{
 
 @media (min-width:0px) and (max-width:1000px){
 
+  .shadow-left{
+    height: 520%;
+    width: 30px;
+    z-index:1;
+    position :absolute;
+    background-color: #fff;
+    opacity: 30%;
+  }
+  .shadow-right{
+    height: 520%;
+    width: 30px;
+    z-index:1;
+    position :absolute;
+    right:0;
+    background-color: #fff;
+    opacity: 30%;
+  }
+
   p{
     font-size: 22px;
     text-align: justify;
